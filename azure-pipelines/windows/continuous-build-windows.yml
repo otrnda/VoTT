@@ -13,7 +13,7 @@ steps:
     
     export DISPLAY=:99.0
 
-    npm i  # do a clean install
+    npm ci --verbose  # do a clean install
     npm run compile
 
     npm run test:ci # don't watch and just run all the tests
